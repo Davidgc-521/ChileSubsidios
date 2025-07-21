@@ -1,0 +1,78 @@
+/* === SECCIÓN CONSULTA CON RUT === */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("imagenes/ChatGPT Image 12 jul 2025, 11_40_37 p.m..png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+.consulta-rut {
+  background-color: #f3f7ff;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-left: 6px solid #005aa7;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.consulta-rut h1 {
+  font-size: 1.8rem;
+  color: #005aa7;
+  margin-bottom: 1rem;
+}
+
+.consulta-rut h2 {
+  font-size: 1.3rem;
+  color: #003b72;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.consulta-rut p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.consulta-rut ul {
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+  list-style-type: "";
+}
+
+.consulta-rut ul li {
+  margin-bottom: 0.5rem;
+}
+
+.consulta-rut a {
+  color: #005aa7;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.consulta-rut a:hover {
+  color: #003b72;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .consulta-rut {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .consulta-rut h1 {
+    font-size: 1.4rem;
+  }
+
+  .consulta-rut h2 {
+    font-size: 1.1rem;
+  }
+}

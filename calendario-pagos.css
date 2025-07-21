@@ -1,0 +1,77 @@
+/* === SECCIÓN CALENDARIO DE PAGOS === */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("imagenes/ChatGPT Image 12 jul 2025, 11_40_37 p.m..png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+.calendario-pagos {
+  background-color: #f9fbfd;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 90, 167, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.calendario-pagos h1 {
+  font-size: 1.8rem;
+  color: #005aa7;
+  margin-bottom: 1rem;
+}
+
+.calendario-pagos h2 {
+  font-size: 1.3rem;
+  color: #003b72;
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.calendario-pagos p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.calendario-pagos ul {
+  margin-left: 1.2rem;
+  padding-left: 1rem;
+  list-style-type: "";
+}
+
+.calendario-pagos ul li {
+  margin-bottom: 0.5rem;
+}
+
+.calendario-pagos a {
+  color: #005aa7;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.calendario-pagos a:hover {
+  text-decoration: none;
+  color: #003b72;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendario-pagos {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .calendario-pagos h1 {
+    font-size: 1.4rem;
+  }
+
+  .calendario-pagos h2 {
+    font-size: 1.1rem;
+  }
+}

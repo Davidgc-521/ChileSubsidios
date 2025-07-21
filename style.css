@@ -1,0 +1,117 @@
+/* General */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("imagenes/ChatGPT Image 12 jul 2025, 11_40_37 p.m..png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: #005aa7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section.inicio {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.95); /* blanco casi opaco */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+/* Títulos */
+h1 {
+  font-size: 2rem;
+  color: #005aa7;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+/* Tipos de subsidios */
+.tipos-subsidios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.tipos-subsidios div {
+  flex: 1 1 45%;
+  background-color: #f0f4ff;
+  padding: 1rem;
+  border-left: 5px solid #005aa7;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.tipos-subsidios div:hover {
+  transform: translateY(-3px);
+}
+
+/* Enlace dentro de tipos de subsidios */
+.tipos-subsidios a {
+  font-weight: bold;
+  color: #003b73;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  section.inicio {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .tipos-subsidios {
+    flex-direction: column;
+  }
+
+  .tipos-subsidios div {
+    flex: 1 1 100%;
+  }
+}

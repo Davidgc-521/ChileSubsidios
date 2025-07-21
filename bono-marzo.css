@@ -1,0 +1,95 @@
+/* ==========================
+   Estilos generales
+========================== */
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("imagenes/ChatGPT Image 12 jul 2025, 11_40_37 p.m..png") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: #0071b6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==========================
+   Contenedor principal
+========================== */
+section.bono-marzo-2025 {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.06);
+}
+
+/* ==========================
+   Títulos y subtítulos
+========================== */
+h1 {
+  font-size: 2rem;
+  color: #0071b6;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: #444;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2::before {
+  content: "";
+  color: #0071b6;
+}
+
+/* ==========================
+   Listas ordenadas y no ordenadas
+========================== */
+ul, ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+ul li, ol li {
+  margin-bottom: 0.6rem;
+}
+
+ul li::marker {
+  color: #0071b6;
+}
+
+/* ==========================
+   Párrafos
+========================== */
+p {
+  margin-bottom: 1rem;
+}
+
+/* ==========================
+   Responsivo
+========================== */
+@media (max-width: 768px) {
+  section.bono-marzo-2025 {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
